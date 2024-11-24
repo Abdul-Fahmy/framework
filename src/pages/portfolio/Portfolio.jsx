@@ -24,9 +24,8 @@ export default function Portfolio() {
             <div className="inner md:w-1/3 p-8">
               <div className="card group relative  rounded-lg overflow-hidden cursor-pointer ">
                 <div
-                  onClick={function (e) {
-                    let source =
-                      e.target.nextElementSibling.getAttribute("src");
+                  onClick={function () {
+                    let source = firstImage;
 
                     setImage(source);
                     setShow("flex");
@@ -41,9 +40,8 @@ export default function Portfolio() {
             <div className="inner md:w-1/3 p-8">
               <div className="card group relative  rounded-lg overflow-hidden cursor-pointer ">
                 <div
-                  onClick={function (e) {
-                    let source =
-                      e.target.nextElementSibling.getAttribute("src");
+                  onClick={function () {
+                    let source = secondImage;
 
                     setImage(source);
                     setShow("flex");
@@ -58,9 +56,8 @@ export default function Portfolio() {
             <div className="inner md:w-1/3 p-8">
               <div className="card group relative  rounded-lg overflow-hidden cursor-pointer ">
                 <div
-                  onClick={function (e) {
-                    let source =
-                      e.target.nextElementSibling.getAttribute("src");
+                  onClick={function () {
+                    let source = thirdImage;
 
                     setImage(source);
                     setShow("flex");
@@ -75,9 +72,8 @@ export default function Portfolio() {
             <div className="inner md:w-1/3 p-8">
               <div className="card group relative  rounded-lg overflow-hidden cursor-pointer ">
                 <div
-                  onClick={function (e) {
-                    let source =
-                      e.target.nextElementSibling.getAttribute("src");
+                  onClick={function () {
+                    let source = firstImage;
 
                     setImage(source);
                     setShow("flex");
@@ -92,9 +88,8 @@ export default function Portfolio() {
             <div className="inner md:w-1/3 p-8">
               <div className="card group relative  rounded-lg overflow-hidden cursor-pointer ">
                 <div
-                  onClick={function (e) {
-                    let source =
-                      e.target.nextElementSibling.getAttribute("src");
+                  onClick={function () {
+                    let source = secondImage;
 
                     setImage(source);
                     setShow("flex");
@@ -109,9 +104,8 @@ export default function Portfolio() {
             <div className="inner md:w-1/3 p-8">
               <div className="card group relative  rounded-lg overflow-hidden cursor-pointer ">
                 <div
-                  onClick={function (e) {
-                    let source =
-                      e.target.nextElementSibling.getAttribute("src");
+                  onClick={function () {
+                    let source = thirdImage;
 
                     setImage(source);
                     setShow("flex");
